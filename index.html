@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Brendan's Bootstrap Portfolio</title>
+    <title>Brendan's Bootstrap About</title>
   </head>
   <link rel="stylesheet" href="./assets/css/reset.css" />
   <link
@@ -19,64 +19,72 @@
     <div class="container" style="width:1000px;">
       <!-- nav bar -->
       <div class="row">
-        <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="d-flex bd-highlight mb-3">    
-              <a class="bren-brand navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="d-flex navbar-nav">
-                      <div class="mr-auto p-2 bd-highlight">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a></div>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </div>
-                </div>
-              </nav>
-              
-                  <div class="p-2 bd-highlight">Flex item</div>
-                  <div class="p-2 bd-highlight">Flex item</div>
-                </div>
+        <div class="col-md-12" style="padding: 0px;">
+          <nav class="bren-navbar navbar navbar-light bg-light">
+            <a class="bren-brand navbar-brand" style="color: white;">Brendan McBryan</a>
+
+            <div class="d-flex flex-row bd-highlight">
+              <a
+                class="bren-btn btn btn-outline-success my-2 my-sm-0"
+                href="./index.html"
+                type="bren-submit"
+                >About</a
+              >
+              <a
+                class="bren-btn btn btn-outline-success my-2 my-sm-0"
+                href="./portfolio.html"
+                type="bren-submit"
+                >Portfolio</a
+              >
+              <a
+                class="bren-btn btn btn-outline-success my-2 my-sm-0"
+                href="./contact.html"
+                type="bren-submit"
+                >Contact</a
+              >
+            </div>
+          </nav>
         </div>
       </div>
     </div>
   </header>
   <body class="mybody">
-    <div class="container" style="padding: 36px;">
+    <div class="bren-container container">
       <!-- main content -->
       <div class="row">
         <div class="col-md-12">
           <div class="row">
-          <h1>About Me</h1>
-       <hr>
-        </div>
-        <div class="row">
-        <div class="col-md-6">
-          <img
-            src="./assets/images/lido200.jpg"
-            alt="profile pic"
-            id="brendan"
-          />
-        </div>
-        <div class="col-md-6">
-          <p>
-            Hello and welcome to my little bio page. My name is Brendan and I am
-            currently enrolled in the PENN LPS Tech Bootcamp. This website,
-            along with this text, was created in order to illustrate my
-            knowledge of HTML and CSS. And now with more Bootstrap!
-          </p>
-          <p>
-            I live with my wife Gahl, and my and two cats, io and oi, in the
-            Rail Park neighborhood of Philadelphia. Never heard of it? Fair
-            enough, these real estate PR releases don't always take. Rail Park
-            is a small city park east of Broad and north of Vine. It really is a
-            beautiful urban park and you should check it out yourself.
-          </p>
-        </div>
-        </div>
+            <h1 class="bren-h1">
+              About Me
+            </h1>
+            
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <img
+                src="./assets/images/lido200.jpg"
+                alt="profile pic"
+                id="brendan"
+              />
+            </div>
+            <div class="col-md-9">
+              <p>
+                Hello and welcome to my little bio page. My name is Brendan and
+                I am currently enrolled in the PENN LPS Tech Bootcamp. This
+                website, along with this text, was created in order to
+                illustrate my knowledge of HTML and CSS. And now with more
+                Bootstrap!
+              </p>
+              <p>
+                I live with my wife Gahl, and my and two cats, io and oi, in the
+                Rail Park neighborhood of Philadelphia. Never heard of it? Fair
+                enough, these real estate PR releases don't always take. Rail
+                Park is a small city park east of Broad and north of Vine. It
+                really is a beautiful urban park and you should check it out
+                yourself.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -84,7 +92,7 @@
   <!-- footer -->
   <footer class="footer mt-auto py-3">
     <div class="container">
-      <span class="text-muted">Place sticky footer content here.</span>
+      <span>Copyright ©</span>
     </div>
   </footer>
 

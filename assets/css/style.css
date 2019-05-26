@@ -1,17 +1,38 @@
 .bren-brand {
   background: #4aaaa5;
   padding: 18px;
+  color: #eeeeee;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.bren-navbar {
+  padding: 0px;
+  color: #eeeeee;
+}
+.bren-btn {
 
+  border: 0px;
+  background: white;
+  color: #4aaaa5;
+}
+.bren-btn:hover{
+  background: #4aaaa5;
+}
 hr {
   border-top: #cccccc 2px solid;
   margin-bottom: 36px;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: #4aaaa5;
+  padding-bottom: 16px;
 }
 .mybody {
   /* box-sizing: border-box; */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  color: #666666;
   background-image: url("../images/noisy.png");
 }
 
@@ -24,18 +45,61 @@ img {
   float: left;
   margin-right: 36px;
   margin-bottom: 18px;
+  object-fit: fill;
   /* object-fit: fill;  */
-  /* max-height: 100%;  */
+  max-height: 100%; 
 }
  
 .footer {
+  color: white;
   background-color: #666666;
   width: 100%;
   position: fixed;
   bottom: 0px;
   border-top: #4aaaa5 solid 3px;
+  text-align: center;
 }
 .main-content
 {
   padding: 36px;
+}
+
+.bren-container {
+ 
+  margin: 36px auto;
+  padding: 36px;
+  background: white;
+  border: solid 2px #dddddd;
+}
+.pimage {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background: #cccccc;
+  margin-right: 136px;
+  margin-bottom: 18px;
+  position: relative;
+  float: left;
+
+  overflow: hidden;
+}
+.ptitle {
+  position: absolute;
+  bottom: 9px;
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  padding: 9px;
+  background: #4aaaa5;
+}
+
+input[type="bren-submit"] {
+  background: #4aaaa5;
+  font-size: 12px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin-top: 8px;
 }
